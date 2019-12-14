@@ -29,7 +29,7 @@ public class ForgotPasswordActivity extends AppCompatActivity {
         rellay1=(RelativeLayout) findViewById(R.id.rellay1);
         nombrelimon=(TextView) findViewById(R.id.nombrelimon);
 
-        handler.postDelayed(runnable,2000);
+        handler.postDelayed(runnable,1500);
     }
 
     public void CodeSents (View view){
