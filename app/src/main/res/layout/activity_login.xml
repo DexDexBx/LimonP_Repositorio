@@ -23,6 +23,18 @@
             android:scaleType="fitCenter"
             android:src="@drawable/limon"/>
 
+        <TextView
+            android:id="@+id/nombrelimon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Limoncito Peruano"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:visibility="gone"></TextView>
+
         <RelativeLayout
             android:id="@+id/rellay1"
             android:layout_width="wrap_content"
@@ -51,6 +63,7 @@
                     android:orientation="vertical">
 
                     <EditText
+                        android:id="@+id/txt_user"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="10dp"
@@ -71,6 +84,7 @@
                     android:orientation="vertical">
 
                     <EditText
+                        android:id="@+id/txt_pass"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="10dp"
@@ -79,7 +93,7 @@
                         android:paddingLeft="5dp"
                         android:drawableLeft="@drawable/ic_action_lock"
                         android:ems="10"
-                        android:inputType="textVisiblePassword"
+                        android:inputType="textPassword"
                         android:hint="Password"/>
 
 
@@ -91,16 +105,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="25dp"
                 android:layout_below="@id/linelay1"
-                android:text="Login"
-                android:textAllCaps="false"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
                 android:background="@drawable/btn_background"
-                android:textColor="@color/colorWhite"
                 android:fontFamily="sans-serif-medium"
+                android:onClick="Login"
                 android:paddingLeft="60dp"
                 android:paddingRight="60dp"
-                android:layout_centerHorizontal="true"
-                android:textSize="16sp"
-                android:layout_marginTop="10dp"></Button>
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"></Button>
 
         </RelativeLayout>
 
@@ -119,11 +134,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/colorTransparent"
+            android:fontFamily="sans-serif"
+            android:onClick="SingUpNow"
             android:text="Singup Now"
             android:textAllCaps="true"
             android:textColor="@color/colorWhite"
-            android:fontFamily="sans-serif"
-            android:textSize="10dp"/>
+            android:textSize="10dp" />
 
         <Button
             android:layout_alignParentRight="true"
@@ -131,6 +147,7 @@
             android:layout_height="wrap_content"
             android:background="@color/colorTransparent"
             android:text="Forgot Password"
+            android:onClick="ForgotPass"
             android:textAllCaps="true"
             android:textColor="@color/colorWhite"
             android:fontFamily="sans-serif"

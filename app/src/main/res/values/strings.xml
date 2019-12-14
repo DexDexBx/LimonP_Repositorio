@@ -3,4 +3,8 @@
     <string name="nombre">Nombre</string>
     <string name="correo">Email</string>
     <string name="contraseña">Password</string>
+    <string name="forgotpass">Ingrese un correo donde se enviara el codigo para la recupearion de
+    la cuenta de acceso a Limon P</string>
+    <string name="codesend">Ingrese el codigo que se envio a su cuenta de correo
+    electrónico</string>
 </resources>
