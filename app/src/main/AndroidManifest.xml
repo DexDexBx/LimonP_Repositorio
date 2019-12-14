@@ -11,8 +11,8 @@
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity"></activity>
         <activity android:name=".AboutUsActivity1" />
-        <activity android:name=".BienvenidoActivity"/>
-        <activity android:name=".AboutUsActivity">
+        <activity android:name=".AboutUsActivity"/>
+        <activity android:name=".BienvenidoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -17,6 +17,40 @@
             android:layout_marginBottom="20dp">
 
         </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="30dp">
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/boton_redondo"
+                android:layout_marginLeft="30dp">
+
+            </Button>
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/boton_redondo"
+                android:layout_marginLeft="30dp">
+
+            </Button>
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/boton_redondo"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="10dp">
+
+            </Button>
+
+        </LinearLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,14 +64,14 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Iniciar"
+            android:layout_height="36dp"
             android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
             android:background="@drawable/input_rounded"
             android:fontFamily="sans-serif-condensed"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
+            android:text="Iniciar"
             android:textSize="25dp">
 
         </Button>
