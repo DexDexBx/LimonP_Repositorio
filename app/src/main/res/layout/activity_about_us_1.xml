@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fond">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fondo15">
+
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terminos y Condiciones"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="cursive"
+            android:textSize="20dp">
+
+        </TextView>
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acepto los terminos y condiciones de la aplicación móvil"
+            android:textSize="10dp"
+            android:onClick="checkButton"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+
+        </RadioButton>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="27dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/input_rounded"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Continuar">
+
+        </Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>
