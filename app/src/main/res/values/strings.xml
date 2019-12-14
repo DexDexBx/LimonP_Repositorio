@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LimonP_Repositorio</string>
+    <string name="text_1">Personal</string>
+    <string name="text_2">Cliente</string>
+    <string name="text_3">Usuario</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
